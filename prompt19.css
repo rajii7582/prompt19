@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+}.main{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}header{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(92, 87, 87);
+    font-size: 120%;
+    display: flex;
+    padding-left: 8%;
+   
+    /* justify-content: center; */
+   
+    align-items: center;
+}input{
+   font-size: 120%;
+   border-radius: 10px;
+ margin-left:20% ;
+ background-color: rgb(183, 199, 199);
+}.icon{
+    margin-left: 40%;
+    font-size: 150%;
+}.content{
+    height: 80%;
+    width: 100%;
+    background-color: lightgray;
+    /* display: inline-flex; */
+}.i1{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 4px 8px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/06/29/12/28/cats-8096304_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.i2{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+    display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/10/01/12/56/shih-tzu-8287355_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}.i3{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/07/04/08/31/cats-8105667_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}.i4{
+    height: 45%;
+    width: 25%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}.i5{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 8px;
+  background-image: url("https://cdn.pixabay.com/photo/2024/02/15/15/46/cat-8575641_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}.i6{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://cdn.pixabay.com/photo/2021/11/22/04/28/animal-6815808_1280.jpg");
+  background-size: cover;
+  background-position: center;
+} 
+.i7{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://cdn.pixabay.com/photo/2024/05/18/08/16/tomcat-8769861_1280.jpg");
+  background-size: cover;
+  background-position: center;
+} 
+.i8{
+    height: 45%;
+    width: 25%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 5px 3px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/12/13/06/40/cat-8446390_1280.jpg");
+  background-size: cover;
+  background-position: center;
+} 
+footer{
+    height: 10%;
+    width: 100%;
+ padding: 4px 5px;
+}.f1{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 5px;
+}i{
+    margin-left: 44px ;
+    margin-right: 20px;
+}
+
+@media (max-width:600px) {
+    input{
+font-size: 90%;
+
+    }.icon{
+        margin-left: -2%;
+    }
+    .content{
+        height: 80%; 
+        width: 100%;
+    padding-top:5px;
+    }.i1{
+        height: 40%;
+        width: 30%;
+
+    }
+    .i2{
+        height: 40%;
+        width: 30%;
+
+    }
+    .i3{
+        height: 40%;
+        width: 30%;
+
+    }
+    .i4{
+        height: 50%;
+        width: 30%;
+        
+
+    }
+    .i5{
+        height: 50%;
+        width: 30%;
+
+    }
+    .i6{
+        height: 50%;
+        width: 30%;
+
+    }.i7 ,.i8{
+        display: none;
+
+    }footer{
+        font-size: 80%;
+        display: flex;
+        align-items: center;
+      
+    }
+}
